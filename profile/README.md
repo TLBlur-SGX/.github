@@ -1,5 +1,3 @@
-# TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms
-
 TLBlur is a *compiler-assisted defense* against page fault attacks on Intel SGX that leverages the AEX-Notify hardware extension.
 Instrumented code builds a *Page Access Map (PAM)* at runtime to inform a *page prefetcher* and reconstruct the TLB after IRQ in order to hide page accesses from the untrusted operating system.
 
